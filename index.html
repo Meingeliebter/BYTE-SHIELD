@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BYTE SHIELD</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="main-header">
+        <div class="logo">
+            <img src="images/logo.png" alt="Logo Ciberseguridad Pro">
+            <span>Byte Shield</span>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#servicios">Servicios</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Protección Digital Avanzada</h1>
+            <p>Protege tus sistemas y datos con soluciones de seguridad efectivas.</p>
+            <button class="btn btn-primary" onclick="location.href='#servicios'">Explorar Servicios</button>
+        </div>
+    </section>
+
+    <section id="servicios" class="services">
+        <h2>Nuestros Servicios</h2>
+        <div class="service-cards">
+            <div class="card">
+                <img src="images/pentesting.jpg" alt="Pentesting">
+                <h3>Pentesting</h3>
+                <p>Detecta y corrige vulnerabilidades antes de que los hackers lo hagan.</p>
+            </div>
+            <div class="card">
+                <img src="images/malware.jpg" alt="Análisis de Malware">
+                <h3>Análisis de Malware</h3>
+                <p>Prevención avanzada contra software malicioso.</p>
+            </div>
+            <div class="card">
+                <img src="images/consultoria.jpg" alt="Consultoría">
+                <h3>Consultoría en Seguridad</h3>
+                <p>Asegura la conformidad y las mejores prácticas en ciberseguridad.</p>
+            </div>
+            <div class="card">
+                <img src="images/formacion.jpg" alt="Formación">
+                <h3>Formación Personalizada</h3>
+                <p>Prepara a tu equipo para enfrentar amenazas digitales.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="nosotros" class="about">
+        <div class="about-container">
+            <img src="images/consultoria.jpg" alt="Equipo de Ciberseguridad">
+            <div class="about-content">
+                <h2>¿Quiénes Somos?</h2>
+                <p>Somos un equipo de expertos en ciberseguridad comprometidos con proteger tus activos digitales. Con más de una década de experiencia, ofrecemos soluciones personalizadas para empresas de todos los tamaños.</p>
+                <ul class="about-list">
+                    <li>🔐 Protección total contra amenazas.</li>
+                    <li>⚙️ Implementación de normativas y auditorías.</li>
+                    <li>👨‍🏫 Formación continua y consultoría.</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <section id="contacto" class="contact">
+        <h2>Contáctanos</h2>
+        <p>¿Tienes alguna consulta? Envíanos un mensaje y nos pondremos en contacto lo antes posible.</p>
+        <form action="#" method="post" class="contact-form">
+            <div class="form-group">
+                <input type="text" name="nombre" placeholder="Nombre" required>
+                <input type="email" name="email" placeholder="Correo Electrónico" required>
+            </div>
+            <textarea name="mensaje" placeholder="Tu mensaje" rows="5" required></textarea>
+            <button type="submit" class="btn btn-submit">Enviar Mensaje</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ciberseguridad Pro. Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

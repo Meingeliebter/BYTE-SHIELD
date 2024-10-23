@@ -1,0 +1,236 @@
+/* Estilos Globales */
+body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    scroll-behavior: smooth;
+}
+
+/* Encabezado */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: #0d1b2a;
+    color: white;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Estilos del Logo */
+.logo {
+    display: flex;
+    align-items: center;  /* Centra verticalmente el logo y el texto */
+    justify-content: center; /* Centra horizontalmente el logo y el texto */
+    margin: 0 20px; /* Espacio alrededor del logo */
+}
+
+.logo-img {
+    width: 60px;  /* Ajusta el ancho del logo para ser simétrico */
+    height: auto; /* Mantiene la proporción del logo */
+    border-radius: 50%; /* Bordes redondeados para un fondo circular */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para destacar el logo */
+    transition: transform 0.3s ease; /* Efecto de transición */
+}
+
+.logo-img:hover {
+    transform: scale(1.1); /* Efecto al pasar el mouse */
+}
+
+.logo-text {
+    font-size: 1.5rem; /* Tamaño del texto */
+    font-weight: bold; /* Negrita para destacar el texto */
+    margin-left: 10px; /* Espaciado entre imagen y texto */
+    color: #4db5ff; /* Color del texto */
+    text-align: center; /* Centra el texto */
+}
+
+/* Navegación */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #4db5ff;
+}
+
+/* Hero */
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), 
+                url('images/formacion.jpg') no-repeat center/cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+/* Botón "Explorar Servicios" */
+.btn-primary {
+    background-color: #4db5ff; /* Nuevo color de fondo */
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    background-color: #0088cc; /* Color al pasar el mouse */
+}
+
+/* Servicios */
+.services {
+    padding: 60px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.service-cards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #f9f9f9;
+}
+
+.card img {
+    width: 100%;
+    height: auto;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.3);
+}
+
+.card h3 {
+    font-size: 1.5rem;
+    margin: 15px 0 10px;
+}
+
+.card p {
+    padding: 0 15px 15px;
+}
+
+/* Sobre Nosotros */
+.about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: #1a1a2e;
+    color: white;
+}
+
+.about-container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+}
+
+.about-container img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.about-content h2 {
+    margin-bottom: 15px;
+}
+
+.about-list {
+    list-style: none;
+}
+
+/* Contacto */
+.contact {
+    padding: 60px 20px;
+    text-align: center;
+    background-color: #e2e2e2;
+}
+
+.contact p {
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.contact-form {
+    max-width: 600px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group input {
+    width: 48%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.contact-form textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.btn-submit {
+    background-color: #4db5ff; /* Color del botón */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-submit:hover {
+    background-color: #0088cc; /* Color al pasar el mouse */
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #0d1b2a;
+    color: white;
+}
