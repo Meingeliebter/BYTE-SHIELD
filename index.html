@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <header class="main-header">
         <div class="logo">
@@ -17,12 +19,19 @@
             <ul class="nav-links">
                 <li><a href="#inicio">Inicio</a></li>
                 <li><a href="#servicios">Servicios</a></li>
-                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#mision-vision">Misión, Visión y Objetivos</a></li>
+                <li><a href="#valores">Valores</a></li>
                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header>
 
+    <!-- Slogan -->
+    <section id="slogan" class="slogan">
+        <h2>"Protegemos lo invisible, aseguramos tu futuro"</h2>
+    </section>
+
+    <!-- Hero Section -->
     <section id="inicio" class="hero">
         <div class="hero-content">
             <h1>Protección Digital Avanzada</h1>
@@ -31,47 +40,73 @@
         </div>
     </section>
 
+    <!-- Servicios -->
     <section id="servicios" class="services">
         <h2>Nuestros Servicios</h2>
         <div class="service-cards">
             <div class="card">
-                <img src="images/pentesting.jpg" alt="Pentesting">
-                <h3>Pentesting</h3>
-                <p>Detecta y corrige vulnerabilidades antes de que los hackers lo hagan.</p>
+                <img src="images/vulnerabilidades.jpg" alt="Análisis de Vulnerabilidades">
+                <h3>Análisis de Vulnerabilidades</h3>
             </div>
             <div class="card">
-                <img src="images/malware.jpg" alt="Análisis de Malware">
-                <h3>Análisis de Malware</h3>
-                <p>Prevención avanzada contra software malicioso.</p>
+                <img src="images/malware.jpg" alt="Protección contra Malware">
+                <h3>Protección contra Malware y Virus</h3>
             </div>
             <div class="card">
-                <img src="images/consultoria.jpg" alt="Consultoría">
-                <h3>Consultoría en Seguridad</h3>
-                <p>Asegura la conformidad y las mejores prácticas en ciberseguridad.</p>
+                <img src="images/redes.jpg" alt="Seguridad de Redes">
+                <h3>Seguridad de Redes y Sistemas</h3>
+            </div>
+        </div>
+        <div class="service-cards">
+            <div class="card">
+                <img src="images/consultoria.jpg" alt="Consultoría Cibernética">
+                <h3>Consultoría en Seguridad Cibernética</h3>
             </div>
             <div class="card">
-                <img src="images/formacion.jpg" alt="Formación">
-                <h3>Formación Personalizada</h3>
-                <p>Prepara a tu equipo para enfrentar amenazas digitales.</p>
+                <img src="images/monitoreo.jpg" alt="Monitoreo de Incidentes">
+                <h3>Monitoreo y Respuesta a Incidentes</h3>
+            </div>
+            <div class="card">
+                <img src="images/capacitacion.jpg" alt="Capacitación">
+                <h3>Capacitación y Conciencia en Seguridad</h3>
             </div>
         </div>
     </section>
 
-    <section id="nosotros" class="about">
-        <div class="about-container">
-            <img src="images/consultoria.jpg" alt="Equipo de Ciberseguridad">
-            <div class="about-content">
-                <h2>¿Quiénes Somos?</h2>
-                <p>Somos un equipo de expertos en ciberseguridad comprometidos con proteger tus activos digitales. Con más de una década de experiencia, ofrecemos soluciones personalizadas para empresas de todos los tamaños.</p>
-                <ul class="about-list">
-                    <li>🔐 Protección total contra amenazas.</li>
-                    <li>⚙️ Implementación de normativas y auditorías.</li>
-                    <li>👨‍🏫 Formación continua y consultoría.</li>
-                </ul>
-            </div>
+
+   <!-- Misión, Visión y Objetivos -->
+    <section id="mision-vision" class="mision-vision">
+        <h2>MISIÓN, VISIÓN Y OBJETIVOS</h2>
+        <div class="mision">
+            <h3>MISIÓN</h3>
+            <p>Defender la seguridad y la privacidad de nuestros clientes en el mundo digital, proporcionando soluciones efectivas y proactivas que les permitan enfocarse en su crecimiento y éxito.</p>
+        </div>
+        <div class="vision">
+            <h3>VISIÓN</h3>
+            <p>Consolidarnos como una empresa emergente de ciberseguridad que inspire confianza en sus clientes y se distinga por su capacidad de adaptación, innovación y excelencia.</p>
+        </div>
+        <div class="objetivos">
+            <h3>OBJETIVOS</h3>
+            <ul>
+                <li>Proporcionar seguridad y tranquilidad en el mundo digital.</li>
+                <li>Permitir a nuestros clientes enfocarse en su crecimiento y éxito.</li>
+            </ul>
         </div>
     </section>
 
+    <!-- Valores -->
+    <section id="valores" class="valores">
+        <h2>Nuestros Valores</h2>
+        <ul class="valores-list">
+            <li>🤝 Confianza</li>
+            <li>💡 Innovación</li>
+            <li>🏅 Excelencia</li>
+            <li>🔐 Compromiso con la Seguridad</li>
+            <li>🛡️ Respeto por la Privacidad</li>
+        </ul>
+    </section>
+
+    <!-- Contacto -->
     <section id="contacto" class="contact">
         <h2>Contáctanos</h2>
         <p>¿Tienes alguna consulta? Envíanos un mensaje y nos pondremos en contacto lo antes posible.</p>
@@ -86,9 +121,10 @@
     </section>
 
     <footer>
-        <p>&copy; 2024 Ciberseguridad Pro. Todos los derechos reservados.</p>
+        <p>&copy; 2024 Byte Shield. Todos los derechos reservados.</p>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
